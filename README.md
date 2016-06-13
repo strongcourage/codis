@@ -4,6 +4,7 @@ CODIS is an inductive program synthesizer.
 
 ## Installation
 
+0. Install Maven 3, oracle-java8-installer. 
 1. Compile Z3 with Java support.
 2. Install `com.microsoft.z3` to Maven:
 
@@ -21,3 +22,4 @@ CODIS is an inductive program synthesizer.
                                  -Dversion=5 \
                                  -Dpackaging=jar
 5. Execute `mvn package`.
+6. Run test: `mvn test -Dtest=TestStoke`
