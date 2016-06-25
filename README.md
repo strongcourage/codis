@@ -23,3 +23,12 @@ CODIS is an inductive program synthesizer.
                                  -Dpackaging=jar
 5. Execute `mvn package`.
 6. Run test: `mvn test -Dtest=TestStoke`
+
+## Extractor
+ 
+ 0. Compile using clang-3.5.
+ 
+        clang++-3.5 -std=c++11 extractor.cpp -o extractor
+ 1. Run: ./extractor input_assembly_file function_name
+ 
+        ./extractor _Z6paritym.s _Z6paritym
